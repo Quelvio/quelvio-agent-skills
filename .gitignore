@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case a subdirectory ever installs deps)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local env files — never commit tokens
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
